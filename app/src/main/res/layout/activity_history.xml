@@ -7,12 +7,19 @@
 
     <Button
         android:id="@+id/buttonDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Delete data" />
+        android:layout_width="119dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/ListViewData"
+        android:layout_alignEnd="@+id/ListViewData"
+        android:layout_marginStart="278dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/delete" />
+
 
     <ListView
         android:id="@+id/ListViewData"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+
 </RelativeLayout>
